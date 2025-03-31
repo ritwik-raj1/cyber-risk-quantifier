@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from backend.risk_model import RiskInput, calculate_risk
+from risk_model import RiskInput, calculate_risk
 from backend.threat_api import get_cisa_threat_level
 from backend.monte_carlo import monte_carlo_simulation
 
